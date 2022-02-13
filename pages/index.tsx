@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Hero from "../components/Hero/Hero";
 
 const Home: NextPage = () => {
   return (
@@ -12,14 +13,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="introduction">
-        <h1 className="headline-l gradient">
-          Hi,
-          <br /> I'm Viktor Snaer Web Developer
-        </h1>
-        <h3 className="headline-s gradient">Front End Developer</h3>
-        <button className="button">Contact me</button>
-      </div>
+      <Hero />
     </div>
   );
 };
