@@ -1,23 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import classes from "./Hero.module.css";
-import Navbar from "../Navbar/Navbar";
 
-const styles = {
-  container: {
-    width: "100%",
-    height: "100%",
-    overflow: "hidden",
-    position: "relative",
-    display: "flex",
-    flexDirection: "column",
-  },
-  content: {
-    position: "relative",
-    zIndex: "1",
-    margin: "auto 64px",
-  },
-} as const;
+import classes from "./Hero.module.css";
+
+import Navbar from "../Navbar/Navbar";
+import Text from "./Text";
+import Socials from "./Socials";
 
 const Hero = () => {
   return (
@@ -31,19 +19,21 @@ const Hero = () => {
         objectPosition="center"
       />
       <Navbar />
-      <div style={styles.content}>
-        <h1 className="headline-l gradient">
-          Hi,
-          <br />
-          I'm Viktor Snaer
-          <br />
-          Web Developer
-        </h1>
-        <h3 className="headline-s gradient">Front End Developer</h3>
-        <button className="button">Contact me</button>
-      </div>
+      <Text />
+      <Socials />
     </div>
   );
 };
 
 export default Hero;
+
+const styles = {
+  container: {
+    width: "100%",
+    height: "100%",
+    overflow: "hidden",
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+  },
+} as const;
