@@ -1,5 +1,7 @@
 import React from "react";
 
+import classes from "./Navbar.module.css";
+
 const navItems = [
   { id: 0, name: "About Me" },
   { id: 1, name: "My Work" },
@@ -13,7 +15,7 @@ const Navbar = () => {
       <ul style={styles.list}>
         {navItems.map((item) => {
           return (
-            <li style={styles.listItem} key={item.id}>
+            <li className={classes.listItem} key={item.id}>
               {item.name}
             </li>
           );
@@ -38,11 +40,5 @@ const styles = {
     flexDirection: "row",
     marginLeft: "0",
     paddingLeft: "0px",
-  },
-  listItem: {
-    color: "white",
-    fontSize: "20px",
-    margin: "10px 110px 0 0",
-    fontFamily: "Roboto",
   },
 } as const;

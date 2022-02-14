@@ -14,7 +14,7 @@ const Socials = () => {
 
 export default Socials;
 
-const iconSize = "40px";
+const iconSize = "35px";
 
 const styles = {
   socialContainer: {

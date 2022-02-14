@@ -1,0 +1,22 @@
+.listItem {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 110px;
+}
+
+@media (max-width: 840px) {
+  .listItem:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .listItem {
+    display: none;
+  }
+}

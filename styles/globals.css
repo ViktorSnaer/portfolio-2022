@@ -18,12 +18,7 @@ a {
   box-sizing: border-box;
 }
 
-.screenScale {
-  width: 100%;
-  padding: 0 64px;
-}
-
-.headline-l {
+.headline {
   font-size: 87px;
   width: fit-content;
   font-weight: 700;
@@ -32,12 +27,30 @@ a {
   line-height: 1.1;
 }
 
-.headline-s {
+@media (max-width: 840px) {
+  .headline {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 600px) {
+  .headline {
+    font-size: 45px;
+  }
+}
+
+.sub-header {
   font-size: 36px;
   font-weight: 500;
   width: fit-content;
   font-family: Roboto;
   margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .sub-header {
+    font-size: 28px;
+  }
 }
 
 .gradient {
