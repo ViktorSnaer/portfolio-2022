@@ -9,7 +9,7 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <div style={styles.container}>
+    <div className={classes.container}>
       <Image
         className={classes.backgroundImage}
         src={"/images/Portfolio-background.jpg"}
@@ -26,14 +26,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-const styles = {
-  container: {
-    width: "100%",
-    height: "100%",
-    overflow: "hidden",
-    position: "relative",
-    display: "flex",
-    flexDirection: "column",
-  },
-} as const;

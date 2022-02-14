@@ -18,7 +18,6 @@ const iconSize = "40px";
 
 const styles = {
   socialContainer: {
-    marginLeft: "64px",
     position: "relative",
   },
   icon: {

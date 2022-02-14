@@ -1,27 +1,5 @@
 import React from "react";
 
-const styles = {
-  navbar: {
-    margin: "0",
-    padding: "0",
-    zIndex: "1",
-    position: "relative",
-  },
-  list: {
-    listStyle: "none",
-    display: "flex",
-    flexDirection: "row",
-    marginLeft: "64px",
-    paddingLeft: "0px",
-  },
-  listItem: {
-    color: "white",
-    fontSize: "20px",
-    margin: "10px 110px 0 0",
-    fontFamily: "Roboto",
-  },
-} as const;
-
 const navItems = [
   { id: 0, name: "About Me" },
   { id: 1, name: "My Work" },
@@ -46,3 +24,25 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const styles = {
+  navbar: {
+    margin: "0",
+    padding: "0",
+    zIndex: "1",
+    position: "relative",
+  },
+  list: {
+    listStyle: "none",
+    display: "flex",
+    flexDirection: "row",
+    marginLeft: "0",
+    paddingLeft: "0px",
+  },
+  listItem: {
+    color: "white",
+    fontSize: "20px",
+    margin: "10px 110px 0 0",
+    fontFamily: "Roboto",
+  },
+} as const;

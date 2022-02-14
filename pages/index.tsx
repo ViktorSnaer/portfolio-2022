@@ -4,7 +4,7 @@ import Hero from "../components/Hero/Hero";
 
 const Home: NextPage = () => {
   return (
-    <div className="home-page-container">
+    <div>
       <Head>
         <title>Viktor Snaer</title>
         <meta

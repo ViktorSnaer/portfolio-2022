@@ -22,6 +22,6 @@ const styles = {
   content: {
     position: "relative",
     zIndex: "1",
-    margin: "auto 64px",
+    margin: "auto 0",
   },
 } as const;
