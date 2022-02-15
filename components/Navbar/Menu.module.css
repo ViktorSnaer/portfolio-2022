@@ -1,0 +1,59 @@
+.menu {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+  z-index: 1;
+}
+
+.menuOpen {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+  z-index: 1;
+}
+
+@media (min-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+.menu span {
+  display: block;
+  width: 35px;
+  height: 4px;
+  margin: 5px auto;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ffc0ff 0%, #fe74fd 50%, #ff6469 100%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuOpen span {
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 5px auto;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ffc0ff 0%, #fe74fd 50%, #ff6469 100%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuOpen span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menuOpen span:nth-child(2) {
+  opacity: 0;
+}
+
+.menuOpen span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}

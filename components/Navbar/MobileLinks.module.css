@@ -1,0 +1,10 @@
+.mobileLinks {
+  height: 100vh;
+  width: 60%;
+  background-color: rgb(55, 1, 71);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: top 0.4s;
+}

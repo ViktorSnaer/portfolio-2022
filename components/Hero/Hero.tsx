@@ -6,7 +6,6 @@ import classes from "./Hero.module.css";
 import Navbar from "../Navbar/Navbar";
 import Text from "./Text";
 import Socials from "./Socials";
-import Menu from "./Menu";
 
 const Hero = () => {
   return (
@@ -20,7 +19,6 @@ const Hero = () => {
         objectPosition="center"
       />
       <Navbar />
-      <Menu />
       <Text />
       <Socials />
     </div>

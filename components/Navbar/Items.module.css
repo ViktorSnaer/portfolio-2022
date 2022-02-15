@@ -1,0 +1,39 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  padding-left: 0px;
+}
+
+.listItem {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 110px;
+}
+
+@media (max-width: 840px) {
+  .listItem:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .listItem:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .listItem {
+    margin: 3rem 0;
+  }
+}
