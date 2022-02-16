@@ -7,7 +7,9 @@ import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  console.log(`Component Navbar state of open: ${open}`);
   const handleOnClick = () => setOpen(open ? false : true);
+
   return (
     <>
       <nav className={classes.navbar}>
@@ -16,7 +18,7 @@ const Navbar = () => {
         </div>
         <Menu handleOnClick={handleOnClick} open={open} />
       </nav>
-      {open ? <MobileLinks handleOnClick={handleOnClick} /> : null}
+      <MobileLinks handleOnClick={handleOnClick} open={open} />
     </>
   );
 };

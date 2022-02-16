@@ -5,6 +5,8 @@
   position: relative;
 }
 
-.hideSmall {
-  display: none;
+@media (max-width: 600px) {
+  .hideSmall {
+    display: none;
+  }
 }
