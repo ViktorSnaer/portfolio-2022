@@ -7,7 +7,7 @@ import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  console.log(`Component Navbar state of open: ${open}`);
+
   const handleOnClick = () => setOpen(open ? false : true);
 
   return (

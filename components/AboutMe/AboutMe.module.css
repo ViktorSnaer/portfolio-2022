@@ -1,0 +1,59 @@
+.container {
+  background-color: #1f0d27;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.textContainer {
+  position: relative;
+  width: 50%;
+}
+
+.title {
+  font-size: 64px;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.topText {
+  position: absolute;
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+.bottomText {
+  position: absolute;
+  bottom: 10%;
+  margin: 0;
+}
+
+.imageContainer {
+  position: relative;
+  width: 50%;
+}
+
+.computer {
+  border-radius: 10px;
+}
+
+.computerImage {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  z-index: 5;
+}
+
+.codeImage {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
