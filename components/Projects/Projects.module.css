@@ -1,10 +1,18 @@
 .container {
-  height: 100vh;
+  display: flex;
   background-color: #894092;
+  min-height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .projectImage {
@@ -22,13 +30,31 @@
   min-width: 250px;
 }
 
-.card p {
+@media (max-width: 1000px) {
+  .card {
+    width: 60%;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+
+.subHeader {
   color: white;
   margin: 10px 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .projectTitle {
   font-size: 28px;
   margin: 10px 0;
+}
+
+.linkProject {
+  font-weight: 600;
+  color: white;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import CardTablet from "./cardTablet";
 import ProjectContainer from "./ProjectContainer";
 
 import classes from "./Projects.module.css";

@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .container {
     padding: 0 32px;
   }
