@@ -11,8 +11,8 @@ const AboutMe = () => {
     <div className={`screen-size ${classes.container}`}>
       <div className={classes.containerHalf}>
         <div className={classes.textContainer}>
-          <h1 className={classes.title}>About me</h1>
-          <p className={`${classes.text}`}>
+          <h1 className={`section-title`}>About me</h1>
+          <p className={`section-text`}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
             ipsum id amet, magnam earum, nam incidunt soluta sit labore debitis,
             adipisci quo necessitatibus impedit officiis autem. Dolor labore

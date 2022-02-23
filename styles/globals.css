@@ -4,8 +4,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-family: Roboto;
   background-color: #000000;
 }
@@ -19,6 +17,7 @@ a {
   box-sizing: border-box;
 }
 
+/* hero styles */
 .headline {
   font-size: 87px;
   width: fit-content;
@@ -39,7 +38,7 @@ a {
     font-size: 45px;
   }
 }
-
+/* hero styles */
 .sub-header {
   font-size: 36px;
   font-weight: 500;
@@ -53,13 +52,13 @@ a {
     font-size: 28px;
   }
 }
-
+/* hero styles */
 .gradient {
   background: linear-gradient(90deg, #ffc0ff 0%, #fe74fd 50%, #ff6469 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+/* hero styles */
 .button {
   padding: 12px 24px;
   border-radius: 20px;
@@ -70,15 +69,11 @@ a {
   font-size: 18px;
   font-family: Roboto;
 }
-
+/* page styles */
 .screen-size {
   width: 100%;
   height: 100vh;
   padding: 0 64px;
-  /* overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column; */
 }
 
 @media (max-width: 1000px) {
@@ -90,5 +85,38 @@ a {
 @media (max-width: 600px) {
   .screen-size {
     padding: 0 8px;
+  }
+}
+
+.section-title {
+  font-size: 64px;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .section-title {
+    font-size: 48px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    padding-top: 2rem;
+    font-size: 48px;
+    height: 100%;
+  }
+}
+
+.section-text {
+  font-size: 24px;
+  font-weight: 400;
+  height: fit-content;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .section-text {
+    font-size: 18px;
   }
 }

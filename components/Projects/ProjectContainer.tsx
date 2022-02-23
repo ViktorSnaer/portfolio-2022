@@ -25,9 +25,9 @@ const ProjectContainer = (props: ProjectProps) => {
           className={classes.projectImage}
         />
       </div>
-      <h3 className={`gradient ${classes.projectTitle}`}>{props.title}</h3>
+      <h3 className={`${classes.projectTitle}`}>{props.title}</h3>
       <p className={classes.subHeader}>{props.subHeader}</p>
-      <p className={classes.linkProject}>View Project ▶️</p>
+      <p className={classes.linkProject}>View Project ▶</p>
     </div>
   );
 };
