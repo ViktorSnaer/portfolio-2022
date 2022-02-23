@@ -1,6 +1,9 @@
 .container {
   display: flex;
-  background-color: #894092;
+  background: linear-gradient(#8d1797, #214b4d);
+  position: relative;
+  background-color: white;
+  color: black;
   min-height: 100vh;
   height: fit-content;
   display: flex;
@@ -17,6 +20,7 @@
 
 .projectImage {
   border-radius: 10px;
+  transition: transform 0.5s ease;
 }
 
 .imageContainer {
@@ -25,7 +29,7 @@
 }
 
 .card {
-  width: 33%;
+  width: 27%;
   margin: 0 0.5rem;
   min-width: 250px;
 }

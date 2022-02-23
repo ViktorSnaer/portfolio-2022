@@ -1,24 +1,24 @@
 import React from "react";
-import CardTablet from "./cardTablet";
 import ProjectContainer from "./ProjectContainer";
+import Image from "next/image";
 
 import classes from "./Projects.module.css";
 
 const projects = [
   {
-    image: "computer.jpg",
+    image: "toDoApp.png",
     title: "To Do Application",
     subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     key: 0,
   },
   {
-    image: "code.jpg",
+    image: "beyondTheBedroom.png",
     title: "Beyond The Bedroom",
     subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     key: 1,
   },
   {
-    image: "computer.jpg",
+    image: "keflavikDepartures.png",
     title: "Keflavik Departures",
     subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     key: 2,
@@ -28,6 +28,15 @@ const projects = [
 const Projects = () => {
   return (
     <div className={`screen-size ${classes.container}`}>
+      <Image
+        className={classes.backgroundImage}
+        src={"/images/background.jpg"}
+        alt="Neon city"
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
+        priority={true}
+      />
       {projects.map((project) => {
         return (
           <ProjectContainer

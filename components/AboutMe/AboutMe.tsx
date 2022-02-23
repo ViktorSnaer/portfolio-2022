@@ -13,16 +13,14 @@ const AboutMe = () => {
         <div className={classes.textContainer}>
           <h1 className={classes.title}>About me</h1>
           <p className={`${classes.text}`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
-            voluptas? Saepe eius soluta provident, unde nisi esse obcaecati quis
-            quasi iste consequuntur dolores incidunt earum! Quis enim
-            perferendis ex necessitatibus!
-          </p>
-          <p className={`${classes.text}`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
-            voluptas? Saepe eius soluta provident, unde nisi esse obcaecati quis
-            quasi iste consequuntur dolores incidunt earum! Quis enim
-            perferendis ex necessitatibus!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+            ipsum id amet, magnam earum, nam incidunt soluta sit labore debitis,
+            adipisci quo necessitatibus impedit officiis autem. Dolor labore
+            voluptate reprehenderit ducimus nihil sint voluptatum quos amet
+            nulla iure autem temporibus tempora voluptas quam, eveniet numquam
+            quibusdam dolorem totam, officiis blanditiis molestiae fugit
+            facilis. Ratione voluptate saepe asperiores, itaque iure qui quod
+            ipsum rerum.
           </p>
         </div>
       </div>
