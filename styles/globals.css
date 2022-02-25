@@ -68,6 +68,7 @@ a {
   color: white;
   font-size: 18px;
   font-family: Roboto;
+  cursor: pointer;
 }
 /* page styles */
 .screen-size {
