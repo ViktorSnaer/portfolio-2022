@@ -3,6 +3,7 @@ import Head from "next/head";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
+import Stack from "../components/Stack/Stack";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Hero />
       <AboutMe />
       <Projects />
+      <Stack />
     </div>
   );
 };

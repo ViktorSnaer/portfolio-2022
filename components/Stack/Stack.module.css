@@ -1,0 +1,44 @@
+.pageContainer {
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+@media (max-width: 1000px) {
+  .skillContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-auto-rows: auto;
+  }
+}
+
+.skillTitle {
+  height: fit-content;
+}
+
+.skillContainer h3 {
+  font-size: 28px;
+}
+
+.skillContainer ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.skillContainer ul > li {
+  text-indent: -30px;
+}
+
+.skillContainer ul > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
