@@ -10,18 +10,21 @@ const projects = [
     title: "To Do Application",
     subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     key: 0,
+    link: "https://to-do-app-crud-f9784.web.app/",
   },
   {
     image: "beyondTheBedroom.png",
     title: "Beyond The Bedroom",
     subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     key: 1,
+    link: "https://www.beyondthebedroom.org/",
   },
   {
     image: "keflavikDepartures.png",
     title: "Keflavik Departures",
     subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     key: 2,
+    link: "https://kef-departures.herokuapp.com/",
   },
 ];
 
@@ -43,6 +46,7 @@ const Projects = () => {
               image={project.image}
               title={project.title}
               subHeader={project.subHeader}
+              link={project.link}
             />
           );
         })}

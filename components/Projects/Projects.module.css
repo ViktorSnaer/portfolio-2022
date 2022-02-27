@@ -47,7 +47,6 @@
   margin: 0;
   min-width: 250px;
   max-width: 400px;
-  cursor: pointer;
 }
 
 @media (max-width: 1000px) {

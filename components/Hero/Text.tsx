@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-scroll";
+
 const Text = () => {
   return (
     <div style={styles.content}>
@@ -11,7 +13,9 @@ const Text = () => {
         Web Developer
       </h1>
       <h3 className="sub-header gradient">Front End Developer</h3>
-      <button className="button">Contact me</button>
+      <Link to="contact" spy={true} smooth={true} offset={50} duration={1000}>
+        <button className="button">Contact me</button>
+      </Link>
     </div>
   );
 };

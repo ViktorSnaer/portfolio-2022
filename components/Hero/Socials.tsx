@@ -30,9 +30,27 @@ const Socials = ({ gradient }: SocialsProps) => {
 
   return (
     <div style={styles.socialContainer}>
-      <FaLinkedin size={iconSize} style={styles.icon} />
-      <FaGithub size={iconSize} style={styles.icon} />
-      <FaTwitter size={iconSize} style={styles.icon} />
+      <a
+        href="https://www.linkedin.com/in/viktor-snaer/"
+        target={"_blank"}
+        rel="noreferrer"
+      >
+        <FaLinkedin size={iconSize} style={styles.icon} />
+      </a>
+      <a
+        href="https://github.com/ViktorSnaer"
+        target={"_blank"}
+        rel="noreferrer"
+      >
+        <FaGithub size={iconSize} style={styles.icon} />
+      </a>
+      <a
+        href="https://twitter.com/viktor_snaer"
+        target={"_blank"}
+        rel="noreferrer"
+      >
+        <FaTwitter size={iconSize} style={styles.icon} />
+      </a>
     </div>
   );
 };

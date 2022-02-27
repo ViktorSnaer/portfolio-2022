@@ -8,26 +8,31 @@ interface ProjectProps {
   image: string;
   title: string;
   subHeader: string;
+  link: string;
 }
 
 const ProjectContainer = (props: ProjectProps) => {
   return (
     <div className={classes.card}>
       <div className={classes.imageContainer}>
-        <Image
-          layout="responsive"
-          width={100}
-          height={70}
-          alt=""
-          src={`/images/${props.image}`}
-          objectFit="cover"
-          objectPosition="center"
-          className={classes.projectImage}
-        />
+        <a href={props.link} target={"_blank"} rel="noreferrer">
+          <Image
+            layout="responsive"
+            width={100}
+            height={70}
+            alt=""
+            src={`/images/${props.image}`}
+            objectFit="cover"
+            objectPosition="center"
+            className={classes.projectImage}
+          />
+        </a>
       </div>
       <h3 className={`${classes.projectTitle}`}>{props.title}</h3>
       <p className={classes.subHeader}>{props.subHeader}</p>
-      <p className={classes.linkProject}>View Project ▶</p>
+      <a href={props.link} target={"_blank"} rel="noreferrer">
+        <p className={classes.linkProject}>View Project ▶</p>
+      </a>
     </div>
   );
 };
