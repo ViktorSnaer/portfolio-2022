@@ -11,7 +11,11 @@ const navItems = [
   { id: 3, name: "Contact", link: "contact" },
 ];
 
-const Items = () => {
+interface ItemsProps {
+  passClick: (event: React.MouseEvent<HTMLLIElement>) => void;
+}
+
+const Items = (props: ItemsProps) => {
   return (
     <ul className={classes.list}>
       {navItems.map((item) => {
@@ -21,11 +25,11 @@ const Items = () => {
             spy={true}
             smooth={true}
             offset={50}
-            duration={500}
+            duration={750}
             key={item.id}
             className={classes.listItem}
           >
-            <li>{item.name}</li>
+            <li onClick={props.passClick}>{item.name}</li>
           </Link>
         );
       })}

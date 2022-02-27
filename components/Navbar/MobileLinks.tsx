@@ -46,7 +46,11 @@ const MobileLinks = (props: MobileProps) => {
           ref={mobileContainer}
           onAnimationEnd={onAnimationEnd}
         >
-          <Items />
+          <Items
+            passClick={() => {
+              props.handleOnClick();
+            }}
+          />
         </div>
       )}
     </>

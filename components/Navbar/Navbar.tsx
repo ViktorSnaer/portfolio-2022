@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <nav className={classes.navbar}>
         <div className={classes.hideSmall}>
-          <Items />
+          <Items passClick={() => {}} />
         </div>
         <Menu handleOnClick={handleOnClick} open={open} />
       </nav>
