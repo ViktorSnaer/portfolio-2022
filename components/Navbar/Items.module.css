@@ -11,6 +11,11 @@
   font-size: 20px;
   margin-top: 10px;
   font-family: Roboto;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  text-decoration: underline;
 }
 
 .listItem:not(:last-child) {
