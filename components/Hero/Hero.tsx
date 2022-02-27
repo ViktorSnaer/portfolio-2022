@@ -21,7 +21,7 @@ const Hero = () => {
       />
       <Navbar />
       <Text />
-      <Socials />
+      <Socials gradient={true} />
     </div>
   );
 };

@@ -5,7 +5,7 @@ import classes from "./Stack.module.css";
 
 const Stack = () => {
   return (
-    <div className={`screen-size ${classes.pageContainer}`}>
+    <div className={`screen-size ${classes.pageContainer}`} id="skills">
       <h3 className={`section-title ${classes.skillTitle}`}>Skills</h3>
       <p className="section-text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia id

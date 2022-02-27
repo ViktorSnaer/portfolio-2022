@@ -27,7 +27,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className={`screen-size ${classes.mainContainer}`}>
+    <div className={`screen-size ${classes.mainContainer}`} id="my-work">
       <h3 className={`section-title`}>My Work</h3>
       <p className={`section-text`}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt

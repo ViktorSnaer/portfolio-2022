@@ -8,7 +8,7 @@ const imageWidth = "350px";
 
 const AboutMe = () => {
   return (
-    <div className={`screen-size ${classes.container}`}>
+    <div className={`screen-size ${classes.container}`} id="about-me">
       <div className={classes.containerHalf}>
         <div className={classes.textContainer}>
           <h1 className={`section-title`}>About me</h1>

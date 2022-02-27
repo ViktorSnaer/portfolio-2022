@@ -2,10 +2,10 @@ import React from "react";
 import classes from "./Items.module.css";
 
 const navItems = [
-  { id: 0, name: "About Me" },
-  { id: 1, name: "My Work" },
-  { id: 2, name: "Stack" },
-  { id: 3, name: "Contact" },
+  { id: 0, name: "About Me", link: "#about-me" },
+  { id: 1, name: "My Work", link: "#my-work" },
+  { id: 2, name: "Skills", link: "#skills" },
+  { id: 3, name: "Contact", link: "#contact" },
 ];
 
 const Items = () => {
@@ -13,9 +13,9 @@ const Items = () => {
     <ul className={classes.list}>
       {navItems.map((item) => {
         return (
-          <li className={classes.listItem} key={item.id}>
-            {item.name}
-          </li>
+          <a href={item.link} key={item.id} className={classes.listItem}>
+            <li>{item.name}</li>
+          </a>
         );
       })}
     </ul>

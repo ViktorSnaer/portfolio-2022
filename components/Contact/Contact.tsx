@@ -9,7 +9,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={`screen-size ${classes.contactContainer}`}>
+    <div className={`screen-size ${classes.contactContainer}`} id="contact">
       <h3 className={`section-title`}>Contact Me</h3>
       <p className="section-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente

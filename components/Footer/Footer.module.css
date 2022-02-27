@@ -1,0 +1,17 @@
+.footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 440px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+}
+
+.footer > * {
+  margin: auto 0;
+}
