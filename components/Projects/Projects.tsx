@@ -8,21 +8,21 @@ const projects = [
   {
     image: "toDoApp.png",
     title: "To Do Application",
-    subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    subHeader: "Set your tasks and catagories them by priority.",
     key: 0,
     link: "https://to-do-app-crud-f9784.web.app/",
   },
   {
     image: "beyondTheBedroom.png",
     title: "Beyond The Bedroom",
-    subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    subHeader: "mixed-media resource for sexual education.",
     key: 1,
     link: "https://www.beyondthebedroom.org/",
   },
   {
     image: "keflavikDepartures.png",
     title: "Keflavik Departures",
-    subHeader: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    subHeader: "Displays all outgoing flights out of Keflavik.",
     key: 2,
     link: "https://kef-departures.herokuapp.com/",
   },
@@ -33,10 +33,9 @@ const Projects = () => {
     <div className={`screen-size ${classes.mainContainer}`} id="my-work">
       <h3 className={`section-title`}>My Work</h3>
       <p className={`section-text`}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-        error, delectus assumenda sed obcaecati odit quia quo atque itaque?
-        Impedit, tempora provident magni quod repellat quidem numquam delectus
-        dolorum facere.
+        My mission is to build functional responsive websites and web
+        applications with the latest technologies. I put equal emphasis on
+        functionality and design, here are some of my latest projects:
       </p>
       <div className={classes.container}>
         {projects.map((project) => {

@@ -54,3 +54,7 @@
   font-family: Roboto;
   cursor: pointer;
 }
+
+.email {
+  text-decoration: underline;
+}

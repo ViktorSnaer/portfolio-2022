@@ -8,10 +8,12 @@ const Stack = () => {
     <div className={`screen-size ${classes.pageContainer}`} id="skills">
       <h3 className={`section-title ${classes.skillTitle}`}>Skills</h3>
       <p className="section-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia id
-        excepturi corrupti. Ex temporibus in veniam placeat quaerat assumenda,
-        repudiandae consectetur consequuntur optio. Molestiae, enim nisi
-        blanditiis deserunt repellat vero.
+        My web development skillset has been built by online courses, reading
+        material, reviewing documentation, and of course- putting my knowledge
+        to the test by developing websites. I am a firm believer in
+        project-based learning where I put my skills to the test and am able to
+        find solutions to my problems. Each project is an opportunity to
+        strengthen or grow my skillset.
       </p>
       <div className={classes.skillContainer}>
         <div>

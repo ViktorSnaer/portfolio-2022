@@ -13,14 +13,13 @@ const AboutMe = () => {
         <div className={classes.textContainer}>
           <h1 className={`section-title`}>About me</h1>
           <p className={`section-text`}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
-            ipsum id amet, magnam earum, nam incidunt soluta sit labore debitis,
-            adipisci quo necessitatibus impedit officiis autem. Dolor labore
-            voluptate reprehenderit ducimus nihil sint voluptatum quos amet
-            nulla iure autem temporibus tempora voluptas quam, eveniet numquam
-            quibusdam dolorem totam, officiis blanditiis molestiae fugit
-            facilis. Ratione voluptate saepe asperiores, itaque iure qui quod
-            ipsum rerum.
+            Seeing users enjoy a project I made is a priceless feeling. Taking
+            an idea and going through the steps of design, code, and finally
+            publishing a live website is always fulfilling, regardless of the
+            project. Working and studying from home has strengthened my work
+            ethic and aided in my work-life balance. I value the accessibility
+            of the information age as it has allowed me to achieve my web
+            development goals.
           </p>
         </div>
       </div>

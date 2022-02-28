@@ -8,10 +8,12 @@ const Contact = () => {
     <div className={`screen-size ${classes.contactContainer}`} id="contact">
       <h3 className={`section-title`}>Contact Me</h3>
       <p className="section-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-        voluptatem est nulla dicta quaerat delectus provident vitae fugiat
-        soluta! Atque earum asperiores ab labore quibusdam in aperiam deserunt
-        fugiat possimus!
+        If you are seeking a front-end developer or have any questions regarding
+        my work, fill out my contact form or reach out directly at
+        <a href="mailto:viktor.snaer23@gmail.com" className={classes.email}>
+          {" "}
+          viktor.snaer23@gmail.com
+        </a>
       </p>
       <Form />
     </div>

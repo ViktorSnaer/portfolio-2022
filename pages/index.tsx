@@ -11,11 +11,25 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Viktor Snaer - Front End web developer</title>
+        <title>Viktor Snaer - Front End Web Developer</title>
         <meta
           name="description"
-          content="Viktor Snaer portfolio showcasing projects"
+          content="My mission is to build functional responsive websites and web applications with the latest technologies. I put equal emphasis on functionality and design"
         />
+        <meta
+          property="og:title"
+          content="Viktor Snaer - Front End Web Developer"
+          key={"title"}
+        />
+        <meta
+          property="og:image"
+          content="//www.viktorsnaer.com/preview-image"
+        />
+        <meta
+          property="og:description"
+          content="My mission is to build functional responsive websites and web applications with the latest technologies. I put equal emphasis on functionality and design"
+        />
+        <meta property="og:url" content="//www.viktorsnaer.com" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
