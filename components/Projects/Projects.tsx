@@ -15,7 +15,7 @@ const projects = [
   {
     image: "beyondTheBedroom.png",
     title: "Beyond The Bedroom",
-    subHeader: "mixed-media resource for sexual education.",
+    subHeader: "Mixed-media resource for sexual education.",
     key: 1,
     link: "https://www.beyondthebedroom.org/",
   },

@@ -21,15 +21,15 @@ const Home: NextPage = () => {
           content="Viktor Snaer - Front End Web Developer"
           key={"title"}
         />
-        <meta
-          property="og:image"
-          content="//www.viktorsnaer.com/preview-image"
-        />
+        <meta property="og:image" content="/images/preview-image.png" />
         <meta
           property="og:description"
           content="My mission is to build functional responsive websites and web applications with the latest technologies. I put equal emphasis on functionality and design"
         />
-        <meta property="og:url" content="//www.viktorsnaer.com" />
+        <meta
+          property="og:url"
+          content="https://portfolio-2022-mauve.vercel.app/"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
