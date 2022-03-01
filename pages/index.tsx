@@ -21,7 +21,10 @@ const Home: NextPage = () => {
           content="Viktor Snaer - Front End Web Developer"
           key={"title"}
         />
-        <meta property="og:image" content="/images/preview-image.png" />
+        <meta
+          property="og:image"
+          content="https://www.viktorsnaer.com/images/preview-image.png"
+        />
         <meta
           property="og:description"
           content="My mission is to build functional responsive websites and web applications with the latest technologies. I put equal emphasis on functionality and design"
