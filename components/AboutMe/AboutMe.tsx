@@ -28,7 +28,7 @@ const AboutMe = () => {
           <div className={classes.computerImage}>
             <Image
               src={"/images/computer.jpg"}
-              alt="Retro computer with purpulish background"
+              alt="Retro computer with purple background"
               height={imageHeight}
               width={imageWidth}
               objectFit="cover"
