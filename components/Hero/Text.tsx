@@ -8,7 +8,7 @@ const Text = () => {
       <h1 className="headline gradient">
         Hi,
         <br />
-        I'm Viktor Snaer
+        I&apos;m Viktor Snaer
         <br />
         Web Developer
       </h1>
