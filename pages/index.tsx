@@ -26,10 +26,7 @@ const Home: NextPage = () => {
           property="og:description"
           content="My mission is to build functional responsive websites and web applications with the latest technologies. I put equal emphasis on functionality and design"
         />
-        <meta
-          property="og:url"
-          content="https://portfolio-2022-mauve.vercel.app/"
-        />
+        <meta property="og:url" content="https://www.viktorsnaer.com/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
