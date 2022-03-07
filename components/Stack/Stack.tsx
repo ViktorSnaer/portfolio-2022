@@ -42,7 +42,7 @@ const Stack = () => {
         <div>
           <h3>Version Control</h3>
           <ul>
-            <li>Git/Github</li>
+            <li>Git</li>
           </ul>
         </div>
         <div>
