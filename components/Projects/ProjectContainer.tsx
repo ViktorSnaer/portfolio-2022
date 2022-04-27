@@ -19,7 +19,7 @@ const ProjectContainer = (props: ProjectProps) => {
           <Image
             layout="responsive"
             width={100}
-            height={70}
+            height={60}
             alt=""
             src={`/images/${props.image}`}
             objectFit="cover"
