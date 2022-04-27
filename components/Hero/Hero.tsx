@@ -17,7 +17,7 @@ const Hero = () => {
         layout="fill"
         objectFit="cover"
         objectPosition="center"
-        priority={true}
+        priority
       />
       <Navbar />
       <Text />
