@@ -14,7 +14,7 @@ interface ProjectProps {
 const ProjectContainer = (props: ProjectProps) => {
   return (
     <div className={classes.card}>
-      <div className={classes.imageContainer}>
+      <div className={`${classes.imageContainer} box-shadow`}>
         <a href={props.link} target={"_blank"} rel="noreferrer">
           <Image
             layout="responsive"

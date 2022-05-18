@@ -6,13 +6,6 @@ import classes from "./Projects.module.css";
 
 const projects = [
   {
-    image: "toDoApp.png",
-    title: "To Do Application",
-    subHeader: "Set your tasks and catagories them by priority.",
-    key: 0,
-    link: "https://to-do-app-crud-f9784.web.app/",
-  },
-  {
     image: "beyondTheBedroom.png",
     title: "Beyond The Bedroom",
     subHeader: "Mixed-media resource for sexual education.",
@@ -20,11 +13,18 @@ const projects = [
     link: "https://www.beyondthebedroom.org/",
   },
   {
-    image: "keflavikDepartures.png",
-    title: "Keflavik Departures",
-    subHeader: "Displays all outgoing flights out of Keflavik.",
+    image: "speed-typing-game.png",
+    title: "Speed Typing Game",
+    subHeader: "Three one-minute rounds of speed typing",
     key: 2,
-    link: "https://kef-departures.herokuapp.com/",
+    link: "https://speed-typing-game-psi.vercel.app/",
+  },
+  {
+    image: "toDoApp.png",
+    title: "To Do Application",
+    subHeader: "Set your tasks and catagories them by priority.",
+    key: 0,
+    link: "https://to-do-app-crud-f9784.web.app/",
   },
 ];
 
