@@ -12,7 +12,7 @@ const Text = () => {
         <br />
         Web Developer
       </h1>
-      <h3 className="sub-header gradient">Front End Developer</h3>
+      <h3 className="sub-header gradient">Building modern websites</h3>
       <Link to="contact" spy={true} smooth={true} offset={50} duration={1000}>
         <button className="button">Contact me</button>
       </Link>

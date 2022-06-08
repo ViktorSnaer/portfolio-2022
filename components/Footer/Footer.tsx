@@ -10,7 +10,7 @@ const Footer = () => {
     <div className={`screen-size ${classes.footer}`}>
       <Socials gradient={false} />
       <p>© Copyright {date.getFullYear()} Viktor Snaer</p>
-      <p>Reykjavik Iceland UTC 0</p>
+      <p>Reykjavik Iceland GMT</p>
     </div>
   );
 };

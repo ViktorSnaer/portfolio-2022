@@ -11,14 +11,14 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Viktor Snaer - Front End Web Developer</title>
+        <title>Viktor Snaer - Web Developer</title>
         <meta
           name="description"
           content="My mission is to build functional responsive websites and web applications with the latest technologies. I put equal emphasis on functionality and design"
         />
         <meta
           property="og:title"
-          content="Viktor Snaer - Front End Web Developer"
+          content="Viktor Snaer - Web Developer"
           key={"title"}
         />
         <meta

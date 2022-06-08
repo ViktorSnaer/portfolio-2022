@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  margin: 4rem 0;
+}
+
+.imageContainer {
+  position: relative;
+  height: 500px;
+  align-items: right;
+  grid-row: 1/-1;
+  grid-column: 4/-1;
+}
+
+.images {
+  border-radius: 10px;
+}
+
+.projectName {
+  grid-row: 4/10;
+  grid-column: 1/10;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}

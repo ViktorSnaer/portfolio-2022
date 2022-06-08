@@ -20,6 +20,7 @@ const Stack = () => {
           <h3>Languages</h3>
           <ul>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>CSS</li>
             <li>HTML</li>
           </ul>
@@ -28,7 +29,8 @@ const Stack = () => {
           <h3>Frameworks</h3>
           <ul>
             <li>React.js</li>
-            <li>Next.js (React library)</li>
+            <li>Next.js</li>
+            <li>Hydrogen Shopify</li>
           </ul>
         </div>
         <div>
