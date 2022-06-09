@@ -1,0 +1,72 @@
+.container {
+  padding: 2rem 0;
+  position: relative;
+}
+.imageContainer {
+  position: relative;
+  height: 100vw;
+}
+
+.title {
+  margin: 0.5rem 0;
+  font-size: 19px;
+}
+
+.excerpt {
+  font-size: 16px;
+}
+
+.bottomText {
+  text-align: center;
+  font-size: 12px;
+}
+
+.image:hover,
+.image:focus {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0.5rem 0;
+}
+
+/* text overlay on image */
+.textOverlay {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  background-color: #dacebd;
+}
+.top {
+  top: -17px;
+  border-radius: 0 0 10px 0;
+  left: 0;
+}
+
+.bottom {
+  bottom: -17px;
+  border-radius: 10px 0 0 0;
+  right: 0;
+}
+
+@media (min-width: 600px) {
+  .imageContainer {
+    position: relative;
+    height: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .imageContainer {
+    height: 60%;
+    border-radius: 10px;
+  }
+  .image {
+    border-radius: 10px;
+  }
+
+  .top,
+  .bottom {
+    border-radius: 10px 0 10px 0;
+  }
+}
