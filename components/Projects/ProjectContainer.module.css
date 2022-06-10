@@ -1,0 +1,56 @@
+.card {
+  width: 32%;
+  margin: 0;
+  min-width: 250px;
+  max-width: 400px;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 100%;
+    max-width: 100%;
+    margin: 2rem 0;
+  }
+}
+
+.imageContainer {
+  width: 100%;
+  min-width: 250px;
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+
+.imageContainer:hover {
+  filter: grayscale(0%);
+}
+
+@media (max-width: 1000px) {
+  .imageContainer {
+    filter: grayscale(0%);
+  }
+}
+
+.projectImage {
+  border-radius: 10px;
+}
+
+.projectTitle {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+@media (min-width: 1000px) {
+  .projectTitle {
+    font-size: 22px;
+  }
+}
+
+.linkProject {
+  font-weight: 600;
+  color: black;
+}
+
+.subHeader {
+  height: 40px;
+}

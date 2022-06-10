@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectContainer from "./ProjectContainer";
-import Image from "next/image";
 
-import classes from "./Projects.module.css";
+import styles from "./Projects.module.css";
+import Link from "next/link";
 
 const projects = [
   {
@@ -30,14 +30,14 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className={`screen-size ${classes.mainContainer}`} id="my-work">
+    <div className={`screen-size ${styles.mainContainer}`} id="my-work">
       <h3 className={`section-title`}>My Work</h3>
       <p className={`section-text`}>
         My mission is to build functional responsive websites and web
         applications with the latest technologies. I put equal emphasis on
         functionality and design, here are some of my latest projects:
       </p>
-      <div className={classes.container}>
+      <div className={styles.container}>
         {projects.map((project) => {
           return (
             <ProjectContainer
@@ -50,6 +50,9 @@ const Projects = () => {
           );
         })}
       </div>
+      <Link href="/projects" passHref>
+        <h2 className={styles.linkText}>All Projects</h2>
+      </Link>
     </div>
   );
 };

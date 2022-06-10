@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 
-import classes from "./Projects.module.css";
+import styles from "./ProjectContainer.module.css";
 
 interface ProjectProps {
   image: string;
@@ -13,8 +13,8 @@ interface ProjectProps {
 
 const ProjectContainer = (props: ProjectProps) => {
   return (
-    <div className={classes.card}>
-      <div className={`${classes.imageContainer} box-shadow`}>
+    <div className={styles.card}>
+      <div className={`${styles.imageContainer} box-shadow`}>
         <a href={props.link} target={"_blank"} rel="noreferrer">
           <Image
             layout="responsive"
@@ -24,14 +24,14 @@ const ProjectContainer = (props: ProjectProps) => {
             src={`/images/${props.image}`}
             objectFit="cover"
             objectPosition="center"
-            className={classes.projectImage}
+            className={styles.projectImage}
           />
         </a>
       </div>
-      <h3 className={`${classes.projectTitle}`}>{props.title}</h3>
-      <p className={classes.subHeader}>{props.subHeader}</p>
+      <h3 className={`${styles.projectTitle}`}>{props.title}</h3>
+      <p className={styles.subHeader}>{props.subHeader}</p>
       <a href={props.link} target={"_blank"} rel="noreferrer">
-        <p className={classes.linkProject}>View Project ▶</p>
+        <p className={styles.linkProject}>View Project ▶</p>
       </a>
     </div>
   );
