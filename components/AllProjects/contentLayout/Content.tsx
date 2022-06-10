@@ -3,15 +3,7 @@ import Image from "next/image";
 
 import styles from "./Content.module.css";
 
-export default function Content({
-  content,
-}: {
-  slug: string;
-  imagePath: string;
-  title: string;
-  description: string;
-  bottomText?: string;
-}) {
+export default function Content({ content }: any) {
   return (
     <Link href={content.slug} passHref>
       <div className={styles.container}>

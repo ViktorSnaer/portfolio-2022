@@ -1,24 +1,7 @@
 import styles from "./ContentContainer.module.css";
 import Content from "./Content";
 
-// NOT GRID
-
-// interface ContentProps {
-//   slug: string;
-//   imagePath: string;
-//   isImageText?: {
-//     topText: string;
-//     bottomText: string;
-//   };
-//   title: string;
-//   description: string;
-// }
-
-interface Props {
-  content: {};
-}
-
-export default function ContentContainer({ content }: Props) {
+export default function ContentContainer({ content }: any) {
   return (
     <div className={styles.container}>
       {content.map((content: {}, index: number) => {
