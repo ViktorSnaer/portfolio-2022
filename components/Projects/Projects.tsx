@@ -8,7 +8,7 @@ const projects = [
   {
     image: "beyondTheBedroom.png",
     title: "Beyond The Bedroom",
-    subHeader: "Mixed-media resource for sexual education.",
+    subHeader: "Mixed-media resource for sexual education",
     key: 1,
     link: "https://www.beyondthebedroom.org/",
   },
@@ -20,11 +20,11 @@ const projects = [
     link: "https://speed-typing-game-psi.vercel.app/",
   },
   {
-    image: "toDoApp.png",
-    title: "To Do Application",
-    subHeader: "Set your tasks and catagories them by priority.",
+    image: "clock-work.png",
+    title: "Clock Work",
+    subHeader: "countdown timer meant for focused sessions",
     key: 0,
-    link: "https://to-do-app-crud-f9784.web.app/",
+    link: "https://clock-work.vercel.app/",
   },
 ];
 

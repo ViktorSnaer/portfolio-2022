@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import ContentContainer from "../../components/AllProjects/contentLayout/ContentContainer";
 import ProjectContainer from "../../components/Projects/ProjectContainer";
@@ -6,38 +7,51 @@ import Projects from "../../components/Projects/Projects";
 const index = () => {
   const content = [
     {
-      slug: "/projects/beyond-the-bedroom",
+      slug: "/projects",
       imagePath: "/images/beyondTheBedroom.png",
       title: "Beyond the Bedroom",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, in dolorem voluptates accusantium consequatur ullam, sint blanditiis aut ipsam delectus qui nam fuga consequuntur dignissimos! Maxime corporis iste at nisi!",
+      description: "",
     },
     {
-      slug: "/projects/speed-typing",
+      slug: "/projects",
       imagePath: "/images/speed-typing-game.png",
       title: "Speed Typing",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, in dolorem voluptates accusantium consequatur ullam, sint blanditiis aut ipsam delectus qui nam fuga consequuntur dignissimos! Maxime corporis iste at nisi!",
+      description: "",
     },
     {
-      slug: "/projects/to-do-app",
+      slug: "/projects",
+      imagePath: "/images/clock-work.png",
+      title: "Clock Work",
+      description: "",
+    },
+    {
+      slug: "/projects",
       imagePath: "/images/toDoApp.png",
       title: "To Do App",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, in dolorem voluptates accusantium consequatur ullam, sint blanditiis aut ipsam delectus qui nam fuga consequuntur dignissimos! Maxime corporis iste at nisi!",
+      description: "",
     },
     {
-      slug: "/projects/keflavik-departures",
+      slug: "/projects",
       imagePath: "/images/keflavikDepartures.png",
       title: "Keflavik Departures",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, in dolorem voluptates accusantium consequatur ullam, sint blanditiis aut ipsam delectus qui nam fuga consequuntur dignissimos! Maxime corporis iste at nisi!",
+      description: "",
     },
   ];
 
   return (
     <section className="screen-size">
-      <h1 className="section-title">Projects</h1>
+      <h1>Projects</h1>
+      <h2>
+        Page under construction 🚧
+        <span>
+          <Link href="/" passHref>
+            <span style={{ textDecoration: "underline", cursor: "pointer" }}>
+              Back to homepage
+            </span>
+          </Link>
+        </span>
+      </h2>
+
       <ContentContainer content={content} />
     </section>
   );

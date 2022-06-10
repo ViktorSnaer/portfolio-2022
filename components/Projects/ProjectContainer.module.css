@@ -43,6 +43,7 @@
 @media (min-width: 1000px) {
   .projectTitle {
     font-size: 22px;
+    margin-top: 1rem;
   }
 }
 
