@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./Text.module.css";
 
 import { Link } from "react-scroll";
 
 const Text = () => {
   return (
-    <div style={styles.content}>
+    <div style={inline.content} className={styles.textContainer}>
       <h1 className="headline gradient">
         Hi,
         <br />
@@ -22,7 +23,7 @@ const Text = () => {
 
 export default Text;
 
-const styles = {
+const inline = {
   content: {
     position: "relative",
     zIndex: "1",

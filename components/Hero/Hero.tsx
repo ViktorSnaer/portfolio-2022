@@ -13,7 +13,7 @@ const Hero = () => {
       <Image
         className={classes.backgroundImage}
         src={"/images/background.jpg"}
-        alt="Neon city"
+        alt="Color"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
