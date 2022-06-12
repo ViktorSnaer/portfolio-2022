@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Contact.module.css";
+import styles from "./Contact.module.css";
 
 import Swal from "sweetalert2";
 import emailjs, { init } from "@emailjs/browser";
@@ -36,12 +36,14 @@ const Form = () => {
   };
 
   return (
-    <div className={classes.formContainer}>
-      <form onSubmit={handleOnSubmit} className={classes.contactForm}>
+    <div className={styles.formContainer}>
+      <form onSubmit={handleOnSubmit} className={styles.contactForm}>
         <input name="from_email" type={"email"} placeholder="Email" required />
         <input name="from_name" type={"text"} placeholder="Name" required />
         <textarea name="message" placeholder="Message" required />
-        <button type="submit">Submit</button>
+        <button type="submit" className={styles.button}>
+          Submit
+        </button>
       </form>
     </div>
   );

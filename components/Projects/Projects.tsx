@@ -50,9 +50,9 @@ const Projects = () => {
           );
         })}
       </div>
-      <Link href="/projects" passHref>
+      {/* <Link href="/projects" passHref>
         <h2 className={styles.linkText}>All Projects</h2>
-      </Link>
+      </Link> */}
     </div>
   );
 };
