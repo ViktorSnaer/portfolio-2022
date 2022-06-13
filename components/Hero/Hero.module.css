@@ -29,6 +29,7 @@
 .socialContainer {
   position: absolute;
   bottom: 2%;
+  z-index: 99999;
 }
 
 .svg {
