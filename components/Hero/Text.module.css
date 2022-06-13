@@ -1,0 +1,11 @@
+.content {
+  position: relative;
+  z-index: 1;
+  margin: auto 0;
+}
+
+@media (min-width: 1000px) {
+  .content {
+    top: -50px;
+  }
+}
