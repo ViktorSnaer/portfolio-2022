@@ -2,10 +2,22 @@
   position: relative;
   z-index: 1;
   margin: auto 0;
+  opacity: 0;
+  animation: fadeIn 2s ease-in 0.5s 1;
+  animation-fill-mode: forwards;
 }
 
 @media (min-width: 1000px) {
   .content {
     top: -50px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

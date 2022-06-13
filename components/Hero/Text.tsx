@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Text.module.css";
 
 import { Link } from "react-scroll";

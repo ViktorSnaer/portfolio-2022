@@ -43,7 +43,7 @@
   resize: none;
 }
 
-.contactForm > button {
+.button {
   padding: 12px 24px;
   border-radius: 20px;
   margin: 1rem 0;
@@ -53,8 +53,20 @@
   font-size: 20px;
   font-family: Roboto;
   cursor: pointer;
+  transition: background-color 1s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(186, 229, 243);
 }
 
 .email {
   text-decoration: underline;
+  transition: color 0.5s;
+}
+
+.email:hover,
+.email:focus {
+  color: rgb(134, 125, 125);
 }
