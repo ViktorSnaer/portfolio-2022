@@ -46,7 +46,7 @@ export default function Skills() {
           />
         </svg>`,
       title: "Responsive Websites",
-      subHeading: "Creating Websites that work on different screens",
+      subHeading: "Creating websites that adjust to various screen sizes",
     },
     {
       __html: `
@@ -56,7 +56,7 @@ export default function Skills() {
 `,
       title: "Website Design",
       subHeading:
-        "Working with a design or making a new design for the project",
+        "Work with an existing design, or choose a new one for your unique project",
     },
     {
       __html: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
@@ -64,7 +64,7 @@ export default function Skills() {
   </svg>`,
       title: "User Authentication",
       subHeading:
-        "Authenticating users to gain access to the site or parts of the site for example",
+        "Allow only authenticated users to gain premium access to your site",
     },
     {
       __html: `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
@@ -73,7 +73,7 @@ export default function Skills() {
     <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
   </svg>`,
       title: "Shopify Integration",
-      subHeading: "Unlock the ability to sell on your website",
+      subHeading: "Streamlined software to unlock sales on your website",
     },
     {
       __html: `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
@@ -88,7 +88,8 @@ export default function Skills() {
       <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
     </svg>`,
       title: "And much more",
-      subHeading: "lorem ipsum",
+      subHeading:
+        "Schedule a consultation to see what else I can offer your brand, portfolio, or sales channel",
     },
   ];
 
