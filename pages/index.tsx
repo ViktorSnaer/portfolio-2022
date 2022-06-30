@@ -8,6 +8,7 @@ import Projects from "../components/Projects/Projects";
 import Skill from "../components/Skills/Skill";
 import Skills from "../components/Skills/Skills";
 import Stack from "../components/Stack/Stack";
+import Work from "../components/Work/Work";
 
 const Home: NextPage = () => {
   return (
@@ -36,6 +37,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Skills />
+      <Work />
       <AboutMe />
       <Projects />
       <Stack />
