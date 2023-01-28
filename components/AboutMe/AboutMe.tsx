@@ -3,8 +3,8 @@ import React from "react";
 
 import classes from "./AboutMe.module.css";
 
-const imageHeight = "300px";
-const imageWidth = "350px";
+const imageHeight = 300;
+const imageWidth = 350;
 
 const AboutMe = () => {
   return (
@@ -31,8 +31,6 @@ const AboutMe = () => {
               alt="Retro computer with purple background"
               height={imageHeight}
               width={imageWidth}
-              objectFit="cover"
-              objectPosition="center"
               className={classes.aboutImage}
             />
           </div>
@@ -42,8 +40,6 @@ const AboutMe = () => {
               alt="Image of code from code editor"
               height={imageHeight}
               width={imageWidth}
-              objectFit="cover"
-              objectPosition="center"
               className={classes.aboutImage}
             />
           </div>
