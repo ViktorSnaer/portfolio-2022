@@ -31,6 +31,7 @@ const AboutMe = () => {
               alt="Retro computer with purple background"
               height={imageHeight}
               width={imageWidth}
+              style={{ objectFit: "cover" }}
               className={classes.aboutImage}
             />
           </div>
@@ -40,6 +41,7 @@ const AboutMe = () => {
               alt="Image of code from code editor"
               height={imageHeight}
               width={imageWidth}
+              style={{ objectFit: "cover" }}
               className={classes.aboutImage}
             />
           </div>

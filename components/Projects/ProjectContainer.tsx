@@ -17,13 +17,10 @@ const ProjectContainer = (props: ProjectProps) => {
       <div className={`${styles.imageContainer} box-shadow`}>
         <a href={props.link} target={"_blank"} rel="noreferrer">
           <Image
-            layout="responsive"
-            width={100}
-            height={60}
             alt=""
             src={`/images/${props.image}`}
-            objectFit="cover"
-            objectPosition="center"
+            fill
+            style={{ objectFit: "cover" }}
             className={styles.projectImage}
           />
         </a>
