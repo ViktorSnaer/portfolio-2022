@@ -16,9 +16,16 @@
 .imageContainer {
   width: 100%;
   min-width: 250px;
+  height: 300px;
   filter: grayscale(100%);
   transition: 1s ease;
   border-radius: 10px;
+}
+
+@media (min-width: 1000px) {
+  .imageContainer {
+    height: 220px;
+  }
 }
 
 .imageContainer:hover {

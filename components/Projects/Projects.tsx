@@ -2,7 +2,6 @@ import React from "react";
 import ProjectContainer from "./ProjectContainer";
 
 import styles from "./Projects.module.css";
-import Link from "next/link";
 
 const projects = [
   {
@@ -50,9 +49,6 @@ const Projects = () => {
           );
         })}
       </div>
-      {/* <Link href="/projects" passHref>
-        <h2 className={styles.linkText}>All Projects</h2>
-      </Link> */}
     </div>
   );
 };
